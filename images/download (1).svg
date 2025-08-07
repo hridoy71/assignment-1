@@ -1,0 +1,12 @@
+<svg width="{{featureMedia.width}}" height="{{featureMedia.height}}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      <linearGradient id="g-{{featureMedia.width}}-{{featureMedia.height}}">
+        <stop stop-color="rgba(51, 51, 51, 0)" offset="20%" />
+        <stop stop-color="rgba(51, 51, 51, 0)" offset="50%" />
+        <stop stop-color="rgba(51, 51, 51, 0)" offset="70%" />
+      </linearGradient>
+    </defs>
+    <rect width="{{featureMedia.width}}" height="{{featureMedia.height}}" fill="rgba(51, 51, 51, 0)" />
+    <rect id="r" width="{{featureMedia.width}}" height="{{featureMedia.height}}" fill="url(#g-{{featureMedia.width}}-{{featureMedia.height}})" />
+    <animate xlink:href="#r" attributeName="x" from="-{{featureMedia.width}}" to="{{featureMedia.width}}" dur="1s" repeatCount="indefinite"  />
+  </svg>

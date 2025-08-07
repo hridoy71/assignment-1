@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: white;
+    padding: 32px 0px 8px 0px;
+}
+.mastery-bundle{
+    width: 850px;
+    margin: 0 auto;
+    background-color: #F1F1F1;
+    padding: 48px 32px 48px 32px;
+}
+.rating-content{
+    display: flex;
+    gap: 2px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.rating{
+    display: flex;
+}
+.rating img{
+    width: 32px;
+    height: 32px;
+}
+.rating-info p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.discount{
+    color: #F81A1A;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+.mastery-bundle h1{
+    font-size: 46px;
+    font-weight: 900;
+    max-width: 620px;
+    text-align: center;
+    margin: 0 auto;
+}
+.para1{
+    text-align: center;
+    font-size: 26px;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.primary-btn{
+    padding: 10px 24px 10px 24px;
+    width: 100%;
+    border: none;
+    background-color: #0097E1;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.para2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #000000;
+}
+.para3{
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+}
+.para3 img{
+    width: 186px;
+    height: 30px;
+    max-width: 100%;
+    border: 2px solid black;
+}
+h2{
+    font-size: 41px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.para4{
+    width: 460px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.brandr{
+    width: 100%;
+    max-width: 100%;
+}
+
+.section-review{
+    background-color: white;
+    padding: 24px 25px 24px 25px;
+}
+.section-review h2{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 41px;
+    letter-spacing: 8px;
+}
+.text-italik{
+    font-style: italic;
+}
+.person-name{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.person-name p{
+    font-size: 26px;
+}
+.p-bold{
+    font-weight: 700;
+}
+.p-italik{
+    font-style: italic;
+}
+.section-btn{
+    width: 850px;
+    margin: 0 auto;
+}
+.section-btn button{
+    background: #4DC6DC;
+    background: linear-gradient(180deg, rgba(77, 198, 220, 1) 0%, rgba(14, 96, 181, 1) 100%);
+    width: 100%;
+    padding: 15px 0px;
+    font-size: 34px;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    line-height: 42px;
+}
+
+
+/* paramedic-section style */
+.paramedic-section{
+    width: 850px;
+    margin: 0 auto;
+    padding: 0px 50px;
+}
+.paramedic-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.award-img img{
+    width: 90px;
+    height: 116px;
+    max-width: 100%;
+}
+.paramedic-title h2{
+    text-transform: uppercase;
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+}
+.paramedic-img{
+    width: 600px;
+    height: 577px;
+    max-width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin: 0px auto;
+}
+.paramedic-p{
+    width: 490px;
+    font-size: 34px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.paramedic-h2{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 41px;
+    letter-spacing: 8px;
+}
+
+/* rating-section-one style */
+.rating-section-one{
+    width: 850px;
+    margin: 0 auto;
+    padding: 0px 50px;
+}
+.review-container{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    padding-top: 30px;
+}
+.profile-img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.review-content{
+    width: 520px;
+    background-color: #F1F1F1;
+    padding: 20px;
+    border-radius: 8px;
+}
+.preson-name{
+    font-size: 21px;
+    font-weight: 700;
+}
+.review-text{
+    font-size: 21px;
+    font-weight: 400;
+}
+.review-content-img img{
+    width: 560px;
+    height: 420px;
+    max-width: 100%;
+    border-radius: 8px;
+    /* margin-top: 30PX;
+    margin-bottom: 50px; */
+}
+.review-h2{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 41px;
+    letter-spacing: 8px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.profile-img-two img{
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.preson-name-two{
+    font-size: 21px;
+    font-weight: 700;
+}
+.review-text-two{
+    font-size: 21px;
+    font-weight: 400;
+}
+
+
+.profile-img-three img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.preson-name-three{
+    font-size: 21px;
+    font-weight: 700;
+}
+.review-text-three{
+    font-size: 21px;
+    font-weight: 400;
+}
+.big-size img{
+    width: 570px;
+    height: 1154px;
+    max-width: 100%;
+}
+.common-h2{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 41px;
+    letter-spacing: 8px;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* rating-section-two style */
+.rating-section-two{
+    width: 850px;
+    margin: 0 auto;
+    padding: 0px 50px;
+}
+.img-size img{
+    width: 560px;
+    height: 712px;
+    max-width: 100%;
+}
+.new-img-size img{
+    width: 572px;
+    height: 471;
+    max-width: 100%;
+}
+.image1 img{
+    width: 540px;
+    height: 126px;
+    max-width: 100%;
+}
+.image2 img{
+    width: 850px;
+    height: 185px;
+    max-width: 100%;
+}
+.image3 img{
+    width: 850px;
+    height: 798px;
+    max-width: 100%;
+}
+.image4 img{
+    width: 850px;
+    height: 435px;
+    max-width: 100%;
+}
+.image5 img{
+    width: 850px;
+    height: 449px;
+    max-width: 100%;
+}
+.section-btn-two{
+    width: 850px;
+    margin: 0 auto;
+}
